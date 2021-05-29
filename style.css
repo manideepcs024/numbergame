@@ -1,0 +1,98 @@
+ul {
+	list-style: none;
+	padding:0;
+}
+ul li{
+	display: inline-block;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.numbersection{
+	/* border: 1px solid;
+    max-width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+	display: flex;
+	min-height: 30px; */
+	border: 1px solid; */
+    /* max-width: 150px; */
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    margin-top: 30px;
+    cursor: pointer;
+    display: flex;
+    min-height: 45px;
+}
+.numbersection span{
+	/* cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid;
+	padding: 10px 20px; */
+	cursor: pointer;
+    /* border-radius: 5px; */
+    /* border: 1px solid; */
+    /* padding: 10px 20px; */
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+
+}
+.pad10{
+	padding:10px;
+}
+.parent{
+	border: 1px solid;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.bordersolid{
+	border: 1px solid;
+}
+.borderight{
+	border-right: 1px solid;
+}
+#first-number{
+	color: blue;
+	font-weight: bold;
+	font-size: 24px;
+}
+#second-number{
+	color: crimson;
+	font-weight: bold;
+	font-size: 24px;
+}
+#third-number{
+	color: pink;
+	font-weight: bold;
+	font-size: 24px;
+}
+.chosenumberdiv{
+	background-color: aliceblue;
+}
+.numlistdiv{
+	background-color: #f7f0f1;
+}
+.scorediv{
+	background-color: #e8e8be;
+}
+.btndiv{
+	background-color: #d0efd0;
+}
+.titlecolor{
+	background-color: orange;
+}
+.topdiv{
+	max-width: 580px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
